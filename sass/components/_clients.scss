@@ -1,0 +1,55 @@
+@import "../variable/variable";
+@import "../mixin/font";
+@import "../mixin/gradient-text";
+
+.clients_area {
+  padding-top: 100px;
+
+  .clients_slider {
+    display: flex;
+    animation: scroll 15s linear infinite;
+    gap: 24px;
+    align-items: center;
+
+    .clients_item {
+      width: 220px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid $border;
+      text-align: center;
+
+      a {
+        width: unset !important;
+      padding: 20px;
+
+      }
+
+      .name {
+        @include font(20px, 600);
+        color: $black;
+      }
+
+      img {
+        width: 90%;
+        object-fit: contain;
+      }
+    }
+  }
+
+}
+
+.clients_main:hover .clients_slider {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(calc(-100% - 10px))
+  }
+}

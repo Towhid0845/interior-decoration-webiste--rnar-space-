@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>RnaR Space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="RnaR Space">
+  <link rel="shortcut icon" href="images/Fevicon.png" type="image/x-icon">
+  <!--all css link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/odometer.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body>
+  <!-- Modal -->
+  <div class="modal poupp_modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close shadow-none position-absolute" data-bs-dismiss="modal"
+            aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" /></svg>
+          </button>
+          <div class="image position-relative">
+            <img src="images/modal-img 1.png" alt="modal-img" class="img-fluid w-100">
+            <div
+              class="text p-5 text-center position-absolute top-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center start-50 translate-middle">
+              <h4 class="title mb-4">Interior Design Budget Calculator</h4>
+              <a class="common_btn rounded-pill" href="calculate.html">Calculate <svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  class="icon ms-1 icon-tabler icons-tabler-outline icon-tabler-arrow-right">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" /></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header area start -->
+  <section class="top_header_area d-none d-sm-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8">
+          <div class="info">
+            <ul class="list-inline justify-content-center justify-content-xl-start">
+              <li class="list-inline-item">
+                <a href="mailto: 01711111111"><i class="fas fa-envelope"></i> rnarspace@gmail.com</a>
+              </li>
+              <li class="list-inline-item">
+                <span><i class="fa fa-map-marker-alt"></i> 02 Kalabagan,Sultana Tower (lift 3)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4 d-none d-xl-block">
+          <div class="social">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="header-fixed-height"></div>
+  <header class="header_area" id="sticky-header">
+    <nav class="navbar navbar-expand-lg d-none d-xl-block">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M6 9l6 6l6 -6" /></svg> -->
+              </a>
+              <!-- <ul class="list-unstyled sub-menu">
+                <li><a href="#">Residence</a></li>
+                <li><a href="#">Office</a></li>
+                <li><a href="#">Hotel</a></li>
+                <li><a href="#">Restaurant
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M6 9l6 6l6 -6" /></svg>
+                  </a>
+                  <ul class="list-unstyled sub-menu">
+                    <li><a href="#">Restaurant Dhaka</a></li>
+                    <li><a href="#">Restaurant Gulshan</a></li>
+                    <li><a href="#">Restaurant Banani</a></li>
+                    <li><a href="#">Restaurant Badda</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Showroom</a></li>
+                <li><a href="#">Exterior Design</a></li>
+              </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video-gallery.html">Video Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">RnaR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- mobile menu start -->
+    <div class="mobile-menu-area d-block d-xl-none">
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <a href="index.html"> <img src="images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-main">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
+        <div class="menu-body">
+          <div class="menu-list">
+            <ul class="list-unstyled">
+              <li class="sub-mobile-menu">
+                <a href="#">Home</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">About Us</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Portfolio</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Projects
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M6 9l6 6l6 -6" /></svg> -->
+                </a>
+                <!-- <ul class="list-unstyled sub-menu">
+                  <li><a href="#">Residence</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Hotel</a></li>
+                  <li><a href="#">Restaurant</a>
+                  </li>
+                  <li><a href="#">Showroom</a></li>
+                  <li><a href="#">Exterior Design</a></li>
+                </ul> -->
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Services</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Video Gallery</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Blog</a>
+              </li>
+              <li class="sub-mobile-menu">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="info_item contact">
+          <div class="title">Contact Information</div>
+          <ul class="list-unstyled">
+            <li>
+              <div class="icon"><i class="fas fa-envelope"></i></div>
+              <div class="text">
+                <a href="mailto:rnarspace@gmail.com">rnarspace@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon"><i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="text">
+                <a href="mailto:01740-670577"> 01740-670577</a>
+              </div>
+            </li>
+            <li>
+              <div class="icon"><i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <p> 02 Kalabagan,Sultana Tower (lift 3)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu end -->
+  </header>
+  <!-- header area end -->
+
+  <!-- main area start -->
+  <main>
+    <!-- banner area start -->
+    <section class="banner_area">
+      <div class="banner_img" style="background: url(images/banner-1.jpg);">
+        <div class="overlay">
+          <!-- <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores voluptatum voluptates, alias possimus, nam neque sequi ex magnam atque sapiente! Eum tempore eos minima quae similique, esse, adipisci rerum a, possimus ducimus quod debitis facilis! Exercitationem quas sapiente placeat.</p>
+            <a class="common_btn" href="about.html">Read More</a>
+          </div> -->
+          <div class="name">
+            <h3>Luxury</h3>
+          </div>
+        </div>
+      </div>
+      <div class="banner_img" style="background: url(images/banner-2.jpg);">
+        <div class="overlay">
+          <!-- <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores voluptatum voluptates, alias possimus, nam neque sequi ex magnam atque sapiente! Eum tempore eos minima quae similique, esse, adipisci rerum a, possimus ducimus quod debitis facilis! Exercitationem quas sapiente placeat.</p>
+            <a class="common_btn" href="about.html">Read More</a>
+          </div> -->
+          <div class="name">
+            <h3>Semi Luxury</h3>
+          </div>
+        </div>
+      </div>
+      <div class="banner_img" style="background: url(images/banner-3.jpg);">
+        <div class="overlay">
+          <!-- <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores voluptatum voluptates, alias possimus, nam neque sequi ex magnam atque sapiente! Eum tempore eos minima quae similique, esse, adipisci rerum a, possimus ducimus quod debitis facilis! Exercitationem quas sapiente placeat.</p>
+            <a class="common_btn" href="about.html">Read More</a>
+          </div> -->
+          <div class="name">
+            <h3>Standard</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner area end -->
+    <!-- services area start -->
+    <section class="service_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="section_title text-center">
+              <h4 class="subtitle">Best Services</h4>
+              <h3 class="title reveal-type">Designing the Future One
+                Room at a Time</h3>
+            </div>
+          </div>
+        </div>
+        <div class="service_main">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <a href="#" class="d-block w-100">
+                <div class="service_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/service-icon-2.svg" alt="service-icon"></div>
+
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">Architecture &
+                      interior </h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="d-block w-100">
+                <div class="service_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/service-icon-1.svg" alt="service-icon"></div>
+
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">Interior design & Photography </h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="d-block w-100">
+                <div class="service_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/service-icon-3.svg" alt="service-icon"></div>
+
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">furniture products production</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#" class="d-block w-100">
+                <div class="service_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/service-icon-4.svg" alt="service-icon"></div>
+
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">Luxury Interior
+                      Design</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services area end -->
+    <!-- calculate banner area start -->
+    <section class="calculate_banner_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="text d-flex justify-content-between align-items-center gap-5 flex-wrap row-gap-4">
+              <h3 class="title">Let’s bring your vision to life — calculate your perfect space with us!</h3>
+              <a class="common_btn flex-shrink-0" href="calculate.html">Calculate your space</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- calculate banner area end -->
+    <!-- about us area start -->
+    <section class="about_us_area">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-xl-6">
+            <div class="image">
+              <div class="reveal_image">
+                <img src="images/about-image.png" alt="about-image" class="img-fluid w-100">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="text">
+              <h2 class="stroke_text">About Us</h2>
+              <div class="about_text">
+                <div class="section_title text-start">
+                  <h4 class="subtitle only_after">About us</h4>
+                  <h3 class="title text-black reveal-type">The Best Solutions By expert interior Designers!</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus nunc Duis egestas ac
+                  ante sed tincidunt. Maecenas in nisi et arcu vulputat isn aliquam Nullam ut metus purus Suspendisse
+                </p>
+                <div class="list_info">
+                  <ul class="list-unstyled">
+                    <li>It is a Long Established fact a reader designer</li>
+                    <li>Many Desktop publishing packages our</li>
+                    <li>Something by accident sometimes happy</li>
+                  </ul>
+                </div>
+                <a class="common_btn" href="about.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us area end -->
+    <!-- latest projects area start -->
+    <section class="latest_project_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="section_title text-center">
+              <h4 class="subtitle">Latest projects</h4>
+              <h3 class="title reveal-type text-black">Look At What our Creativity & unique Projects</h3>
+            </div>
+          </div>
+        </div>
+        <div class="projects_menus">
+          <ul class="list-unstyled">
+            <li>
+              <button class="active" data-filter="*">All</button>
+              <button data-filter=".exterior">Exterior</button>
+              <button data-filter=".interior">Interior</button>
+              <button data-filter=".side_view">Side view</button>
+              <button data-filter=".worldwide">Worldwide</button>
+              <button data-filter=".country_life">Country life</button>
+            </li>
+          </ul>
+        </div>
+        <div class="latest_projects_container">
+          <div class="row g-3 g-sm-4 g-md-5 projects_container">
+            <div class="col-lg-6 interior worldwide country_life">
+              <a href="project-details.html" class="d-block w-100">
+                <div class="project_item">
+                  <img src="images/project-img-1.png" alt="project-img" class="img-fluid w-100">
+                  <div class="text d-flex gap-4 align-items-center">
+                    <div class="left">
+                      <h4 class="title">White Villa</h4>
+                      <p>Interior</p>
+                    </div>
+                    <div class="right">
+                      <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M5 12l14 0" />
+                          <path d="M13 18l6 -6" />
+                          <path d="M13 6l6 6" /></svg></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 exterior side_view">
+              <a href="project-details.html" class="d-block w-100">
+                <div class="project_item">
+                  <img src="images/project-img-2.png" alt="project-img" class="img-fluid w-100">
+                  <div class="text d-flex gap-4 align-items-center">
+                    <div class="left">
+                      <h4 class="title">White Villa</h4>
+                      <p>Interior</p>
+                    </div>
+                    <div class="right">
+                      <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M5 12l14 0" />
+                          <path d="M13 18l6 -6" />
+                          <path d="M13 6l6 6" /></svg></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 interior worldwide">
+              <a href="project-details.html" class="d-block w-100">
+                <div class="project_item">
+                  <img src="images/project-img-3.png" alt="project-img" class="img-fluid w-100">
+                  <div class="text d-flex gap-4 align-items-center">
+                    <div class="left">
+                      <h4 class="title">White Villa</h4>
+                      <p>Interior</p>
+                    </div>
+                    <div class="right">
+                      <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M5 12l14 0" />
+                          <path d="M13 18l6 -6" />
+                          <path d="M13 6l6 6" /></svg></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 exterior side_view country_life">
+              <a href="project-details.html" class="d-block w-100">
+                <div class="project_item">
+                  <img src="images/project-img-4.png" alt="project-img" class="img-fluid w-100">
+                  <div class="text d-flex gap-4 align-items-center">
+                    <div class="left">
+                      <h4 class="title">White Villa</h4>
+                      <p>Interior</p>
+                    </div>
+                    <div class="right">
+                      <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M5 12l14 0" />
+                          <path d="M13 18l6 -6" />
+                          <path d="M13 6l6 6" /></svg></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest projects area end -->
+    <!-- videos area start -->
+    <section class="videos_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="section_title text-center">
+              <h4 class="subtitle">Videos</h4>
+              <h3 class="title reveal-type text-black">Explore Our Latest
+                Project Videos</h3>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="video_item">
+            <img src="images/video-img-1.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+          <div class="video_item">
+            <img src="images/video-img-2.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+          <div class="video_item">
+            <img src="images/video-img-3.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+          <div class="video_item">
+            <img src="images/video-img-4.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+          <div class="video_item">
+            <img src="images/video-img-5.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+          <div class="video_item">
+            <img src="images/video-img-6.png" alt="video-img" class="img-fluid w-100">
+            <div class="overlay">
+              <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- videos area end -->
+    <!-- counter area start -->
+    <section class="counter_area" style="background-image: url(images/counter-bg.svg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="section_title text-start">
+              <h4 class="subtitle only_after">Counter</h4>
+              <h3 class="title reveal-type">Aesthetics with
+                Interior Flaire</h3>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6">
+                <div class="counter_item">
+                  <div class="text">
+                    <div class="icon"><img src="images/counter-icon-1.png" alt="counter-icon"></div>
+                    <h4 class="title"><span class="odometer" data-count="40"></span>k</h4>
+                    <p>Award Won For
+                      Our Quality</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="counter_item">
+                  <div class="text">
+                    <div class="icon"><img src="images/counter-icon-2.png" alt="counter-icon"></div>
+                    <h4 class="title"><span class="odometer" data-count="8"></span>k</h4>
+                    <p>Satisfied
+                      Client Review</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="counter_item">
+                  <div class="text">
+                    <div class="icon"><img src="images/counter-icon-3.png" alt="counter-icon"></div>
+                    <h4 class="title"><span class="odometer" data-count="10"></span>k</h4>
+                    <p>Projects Has Been Completed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter area end -->
+    <!-- working process area start -->
+    <section class="working_process_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="section_title text-center">
+              <h4 class="subtitle">how we works</h4>
+              <h3 class="title reveal-type">Our Working Process Step</h3>
+            </div>
+          </div>
+        </div>
+        <div class="working_process_main">
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <a href="#" class="d-block w-100">
+                <div class="working_process_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/work-process-img-2.png" alt="work-process-img"></div>
+                    <div class="tag">01</div>
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">surveys and
+                      quotes</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available of the majority
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="#" class="d-block w-100">
+                <div class="working_process_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/work-process-img-2.png" alt="work-process-img"></div>
+                    <div class="tag">02</div>
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">design and performance</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available of the majority
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="#" class="d-block w-100">
+                <div class="working_process_item">
+                  <div class="icon d-flex justify-content-between gap-4 align-items-start">
+                    <div class="img"><img src="images/work-process-img-3.png" alt="work-process-img"></div>
+                    <div class="tag">03</div>
+                  </div>
+                  <div class="text">
+                    <h4 class="title reveal-type">handover and support</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available of the majority
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- working process area end -->
+    <!-- team area start -->
+    <section class="team_area">
+      <div class="container">
+        <div class="col-lg-6 mx-auto">
+          <div class="section_title text-center">
+            <h4 class="subtitle">Team</h4>
+            <h3 class="title reveal-type text-black">Explore our team member</h3>
+          </div>
+        </div>
+        <div class="row team_slider">
+          <div class="col-lg-6">
+            <div class="team_item">
+              <div class="image">
+                <img src="images/testimonial-img-1.png" alt="testimonial-img" class="img-fluid w-100">
+
+                <div class="social_icon">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="text">
+                <div class="top">
+                  <h4 class="name">Nathanael Gonsalves</h4>
+                  <h5 class="designation">Marketing Coordinator</h5>
+                </div>
+                <p>loborti viverra laoreet matti ullamcorper posuere in viverra Aliquam eros justo, posuere lobortis non
+                  dei Aliquam eros justo, posuere loborti</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="team_item">
+              <div class="image">
+                <img src="images/testimonial-img-2.png" alt="testimonial-img" class="img-fluid w-100">
+
+                <div class="social_icon">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="text">
+                <div class="top">
+                  <h4 class="name">Annette Black</h4>
+                  <h5 class="designation">Marketing Coordinator</h5>
+                </div>
+                <p>loborti viverra laoreet matti ullamcorper posuere in viverra Aliquam eros justo, posuere lobortis non
+                  dei Aliquam eros justo, posuere loborti</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="team_item">
+              <div class="image">
+                <img src="images/testimonial-img-1.png" alt="testimonial-img" class="img-fluid w-100">
+
+                <div class="social_icon">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="text">
+                <div class="top">
+                  <h4 class="name">Nathanael Gonsalves</h4>
+                  <h5 class="designation">Marketing Coordinator</h5>
+                </div>
+                <p>loborti viverra laoreet matti ullamcorper posuere in viverra Aliquam eros justo, posuere lobortis non
+                  dei Aliquam eros justo, posuere loborti</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="team_item">
+              <div class="image">
+                <img src="images/testimonial-img-2.png" alt="testimonial-img" class="img-fluid w-100">
+
+                <div class="social_icon">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                      <path d="M8 11l0 5" />
+                      <path d="M8 8l0 .01" />
+                      <path d="M12 16l0 -5" />
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+                  </a>
+                </div>
+              </div>
+              <div class="text">
+                <div class="top">
+                  <h4 class="name">Annette Black</h4>
+                  <h5 class="designation">Marketing Coordinator</h5>
+                </div>
+                <p>loborti viverra laoreet matti ullamcorper posuere in viverra Aliquam eros justo, posuere lobortis non
+                  dei Aliquam eros justo, posuere loborti</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team area end -->
+    <!-- clients area start -->
+    <section class="clients_area">
+      <div class="container">
+        <div class="col-lg-6 mx-auto">
+          <div class="section_title text-center">
+            <h4 class="subtitle">Clients</h4>
+            <h3 class="title reveal-type text-black">I have worked with some notable brands</h3>
+          </div>
+        </div>
+      </div>
+      <div class="clients_main d-flex gap-4 align-items-center">
+        <div class="clients_slider">
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Hasan Furniture</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-2.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-3.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Kabir Raihan Chowdhury</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-5.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-6.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Ananna Jaman</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-4.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Leading Agency</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-6.svg" alt="cl-img">
+            </a>
+          </div>
+        </div>
+        <div class="clients_slider">
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Hasan Furniture</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-2.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-3.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Kabir Raihan Chowdhury</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-5.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-6.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Ananna Jaman</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-4.svg" alt="cl-img">
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <h3 class="name">Leading Agency</h3>
+            </a>
+          </div>
+          <div class="clients_item">
+            <a href="#" class="d-block w-100">
+              <img src="images/cl-img-6.svg" alt="cl-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- clients area end -->
+    <!-- blog area start -->
+    <section class="blog_area">
+      <h2 class="stroke_text">Recent Blog</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="section_title text-start">
+              <h4 class="subtitle only_after">Recent Blogs</h4>
+              <h3 class="title text-black reveal-type">Unleash Your Creativity with
+                Interior Inspiration</h3>
+            </div>
+          </div>
+          <div class="col-lg-5 align-self-center">
+            <div class="blog_slider_arrow_main text-end">
+              <button type="button" class="blog_slider_arrow blog_slider_prev">
+                <svg width="77" height="8" viewBox="0 0 77 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.646446 4.35355C0.451187 4.15828 0.451187 3.8417 0.646446 3.64644L3.82843 0.46446C4.02369 0.269198 4.34027 0.269198 4.53554 0.46446C4.7308 0.659722 4.7308 0.976304 4.53554 1.17157L1.70711 3.99999L4.53554 6.82842C4.7308 7.02368 4.7308 7.34027 4.53554 7.53553C4.34027 7.73079 4.02369 7.73079 3.82843 7.53553L0.646446 4.35355ZM77 4.5L1 4.49999L1 3.49999L77 3.5L77 4.5Z"
+                    fill="currentcolor"></path>
+                </svg>
+              </button>
+              <button type="button" class="blog_slider_arrow blog_slider_next">
+                <svg width="77" height="8" viewBox="0 0 77 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M76.3536 4.35355C76.5488 4.15828 76.5488 3.8417 76.3536 3.64644L73.1716 0.46446C72.9763 0.269198 72.6597 0.269198 72.4645 0.46446C72.2692 0.659722 72.2692 0.976304 72.4645 1.17157L75.2929 3.99999L72.4645 6.82842C72.2692 7.02368 72.2692 7.34027 72.4645 7.53553C72.6597 7.73079 72.9763 7.73079 73.1716 7.53553L76.3536 4.35355ZM4.37114e-08 4.5L76 4.49999L76 3.49999L-4.37114e-08 3.5L4.37114e-08 4.5Z"
+                    fill="black"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row blog_slider">
+          <div class="col-lg-6">
+            <div class="blog_slider_item">
+              <div class="image">
+                <a href="blog-details.html" class="d-block w-100">
+                  <img src="images/blog-img-1.png" alt="blog-img" class="img-fluid w-100">
+                </a>
+              </div>
+              <div class="text">
+                <ul class="list-unstyled">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-month">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+                      <path d="M16 3v4" />
+                      <path d="M8 3v4" />
+                      <path d="M4 11h16" />
+                      <path d="M7 14h.013" />
+                      <path d="M10.01 14h.005" />
+                      <path d="M13.01 14h.005" />
+                      <path d="M16.015 14h.005" />
+                      <path d="M13.015 17h.005" />
+                      <path d="M7.01 17h.005" />
+                      <path d="M10.01 17h.005" /></svg>
+                    Oct 19, 2024
+                  </li>
+                </ul>
+                <h4 class="title">The Power of
+                  Thoughtful
+                  Interior Design</h4>
+                <a href="#" class="common_btn">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="blog_slider_item">
+              <div class="image">
+                <a href="blog-details.html" class="d-block w-100">
+                  <img src="images/blog-img-2.png" alt="blog-img" class="img-fluid w-100">
+                </a>
+              </div>
+              <div class="text">
+                <ul class="list-unstyled">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-month">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+                      <path d="M16 3v4" />
+                      <path d="M8 3v4" />
+                      <path d="M4 11h16" />
+                      <path d="M7 14h.013" />
+                      <path d="M10.01 14h.005" />
+                      <path d="M13.01 14h.005" />
+                      <path d="M16.015 14h.005" />
+                      <path d="M13.015 17h.005" />
+                      <path d="M7.01 17h.005" />
+                      <path d="M10.01 17h.005" /></svg>
+                    Oct 19, 2024
+                  </li>
+                </ul>
+                <h4 class="title">The Power of
+                  Thoughtful
+                  Interior Design</h4>
+                <a href="#" class="common_btn">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="blog_slider_item">
+              <div class="image">
+                <a href="blog-details.html" class="d-block w-100">
+                  <img src="images/blog-img-1.png" alt="blog-img" class="img-fluid w-100">
+                </a>
+              </div>
+              <div class="text">
+                <ul class="list-unstyled">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-month">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+                      <path d="M16 3v4" />
+                      <path d="M8 3v4" />
+                      <path d="M4 11h16" />
+                      <path d="M7 14h.013" />
+                      <path d="M10.01 14h.005" />
+                      <path d="M13.01 14h.005" />
+                      <path d="M16.015 14h.005" />
+                      <path d="M13.015 17h.005" />
+                      <path d="M7.01 17h.005" />
+                      <path d="M10.01 17h.005" /></svg>
+                    Oct 19, 2024
+                  </li>
+                </ul>
+                <h4 class="title">The Power of
+                  Thoughtful
+                  Interior Design</h4>
+                <a href="#" class="common_btn">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog area end -->
+  </main>
+  <!-- main area end -->
+  <!-- footer area start -->
+  <!-- whatsapp icon start -->
+  <a target="_blank" href="https://wa.me/+8801740008006" class="whatsapp_icon">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <!-- whatsapp icon end -->
+  <button class="scroll-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer_widget footer_cols_1">
+            <div class="footer_logo">
+              <a href="index.html">
+                <img src="images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div class="footer_text">
+              <p>Lorem Ipsum is simply dummy text the printing and typesetting industry</p>
+            </div>
+            <div class="footer_input_box">
+              <form action="#">
+                <input type="email" placeholder="Email here">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-send">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M10 14l11 -11" />
+                    <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                  </svg></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="footer_widget footer_cols_2">
+            <h4 class="footer_title">Our Links</h4>
+            <div class="footer_list">
+              <ul>
+                <li><a href="#">Dribble</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <div class="footer_widget footer_cols_3">
+            <h4 class="footer_title">Pages</h4>
+            <div class="footer_list">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Recent News</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 footer_cols_4 col-md-5">
+          <div class="footer_widget">
+            <div class="footer_contact_box">
+              <h4 class="footer_title">Office Information</h4>
+              <div class="tp-footer-contact">
+                <ul class="list-unstyled">
+                  <li>
+                    <span>
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M13.9727 11.332L13.3164 14.0938C13.2344 14.5039 12.9062 14.7773 12.4961 14.7773C5.60547 14.75 0 9.14453 0 2.25391C0 1.84375 0.246094 1.51562 0.65625 1.43359L3.41797 0.777344C3.80078 0.695312 4.21094 0.914062 4.375 1.26953L5.66016 4.25C5.79688 4.60547 5.71484 5.01562 5.41406 5.23438L3.9375 6.4375C4.86719 8.32422 6.39844 9.85547 8.3125 10.7852L9.51562 9.30859C9.73438 9.03516 10.1445 8.92578 10.5 9.0625L13.4805 10.3477C13.8359 10.5391 14.0547 10.9492 13.9727 11.332Z"
+                          fill="currentcolor"></path>
+                      </svg>
+                    </span>
+                    02 Kalabagan,Sultana Tower (lift 3)
+                  </li>
+                  <li>
+                    <span>
+                      <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M4.59375 14.4219C3.17188 12.6445 0 8.40625 0 6C0 3.10156 2.32422 0.75 5.25 0.75C8.14844 0.75 10.5 3.10156 10.5 6C10.5 8.40625 7.30078 12.6445 5.87891 14.4219C5.55078 14.832 4.92188 14.832 4.59375 14.4219ZM5.25 7.75C6.20703 7.75 7 6.98438 7 6C7 5.04297 6.20703 4.25 5.25 4.25C4.26562 4.25 3.5 5.04297 3.5 6C3.5 6.98438 4.26562 7.75 5.25 7.75Z"
+                          fill="currentcolor"></path>
+                      </svg>
+                    </span>
+                    <a href="tel:01740-670577">01740-670577</a>
+                  </li>
+                  <li>
+                    <span>
+                      <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M12.6875 0.5C13.3984 0.5 14 1.10156 14 1.8125C14 2.25 13.7812 2.63281 13.4531 2.87891L7.51953 7.33594C7.19141 7.58203 6.78125 7.58203 6.45312 7.33594L0.519531 2.87891C0.191406 2.63281 0 2.25 0 1.8125C0 1.10156 0.574219 0.5 1.3125 0.5H12.6875ZM5.93359 8.04688C6.5625 8.51172 7.41016 8.51172 8.03906 8.04688L14 3.5625V9.25C14 10.2344 13.207 11 12.25 11H1.75C0.765625 11 0 10.2344 0 9.25V3.5625L5.93359 8.04688Z"
+                          fill="currentcolor"></path>
+                      </svg>
+                    </span>
+                    <a href="mailto:rnarspace@gmail.com">rnarspace@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_btm">
+      <div class="container">
+        <div class="row g-1 g-lg-4">
+          <div class="col-lg-5">
+            <div class="text">
+              <p>&copy; RnaR Space 2023 | All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="text-end">
+              <ul class="list-unstyled">
+                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+
+  <!-- all js link -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/jquery.odometer.min.js"></script>
+  <script src="js/isotop-activate.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/splitting.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
